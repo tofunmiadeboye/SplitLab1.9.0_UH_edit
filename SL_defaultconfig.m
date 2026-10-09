@@ -60,12 +60,12 @@ config.catformat='CMT';
 
 
 %% default REQUEST settings
-config.request.user     = 'scholzjr';    %user; % 'defaultuser';
-config.request.password = 'uufoh4ooK';   % user authentication for restricted data
-config.request.institut = 'IPGP';
+config.request.user     = '';    %user; % 'defaultuser';
+config.request.password = '';   % user authentication for restricted data
+config.request.institut = '';
 config.request.phone    = '';
-config.request.adress   = 'Champ de Mars, 5 Avenue Anatole France, Paris'; %breqfast request required
-config.request.usermail = 'scholz@ipgp.fr'; %[config.request.user '@'];
+config.request.adress   = ''; %breqfast request required
+config.request.usermail = ''; %[config.request.user '@'];
 
 config.request.format   = 'NetDC';
 config.request.comp     = 'BH?';
