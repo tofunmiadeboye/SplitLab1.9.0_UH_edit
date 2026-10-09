@@ -1,5 +1,7 @@
 # SplitLab 1.9.0 — Oluwatofunmi's Modifications
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23271001.svg)](https://doi.org/10.5281/zenodo.23271001)
+
 This is a modified copy of SplitLab, a shear-wave splitting analysis environment for MATLAB. If you use this software, please cite the original:
 
 > Wüstefeld, A., Bokelmann, G., Zaroli, C., & Barruol, G. (2008). SplitLab: A shear-wave splitting environment in Matlab. *Computers & Geosciences*, 34(5), 515–528. https://doi.org/10.1016/j.cageo.2007.08.002
