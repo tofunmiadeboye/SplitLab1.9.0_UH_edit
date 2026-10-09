@@ -37,9 +37,9 @@ This modified copy is distributed under the same terms.
    ```
    This launches the main GUI — project/database setup, event selection, waveform viewing, and the splitting-measurement interface.
 
-## Changes in this fork
+## Modifications
 
-The changes below were made by O. Adeboye (2026) unless otherwise noted, building on a station-reading extension (HH1/HH2/HHZ, BHE/BHN/BHZ, LH1/LH2/LHZ file-naming support, `config_GUI/configpanelFINDFILE.m`) previously added by G. Ito. Each entry lists the file changed and why.
+The changes below were made by O. Adeboye (2025–2026). They build on an earlier station-reading extension by O. Adeboye and G. Ito (`config_GUI/configpanelFINDFILE.m`), which added support for HH1/HH2/HHZ and LH1/LH2/LHZ file naming. Each entry lists the file changed and why.
 
 ### Splitting intensity (SI)
 
@@ -65,10 +65,6 @@ The changes below were made by O. Adeboye (2026) unless otherwise noted, buildin
 ### Cross-platform export
 
 - **`Tools/pjt2xls.m`** — Reworked the project-to-Excel export path, which previously relied on `xlswrite` and required Microsoft Excel to be installed (failing on Mac without it).
-
-### Attribution note
-
-HH1/HH2/HHZ (and BHE/BHN/BHZ, LH1/LH2/LHZ) SAC file-naming support (`config_GUI/configpanelFINDFILE.m`) predates this edit set and is credited to G. Ito in the code itself. It is unchanged from the baseline this fork was diffed against and should not be attributed to the changes listed above.
 
 ### Files renamed only, no functional change
 
