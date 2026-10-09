@@ -1,4 +1,4 @@
-# SplitLab 1.9.0 (UH edit) — Modifications
+# SplitLab 1.9.0 — Oluwatofunmi's Modifications
 
 This is a modified copy of SplitLab, a shear-wave splitting analysis environment for MATLAB. If you use this software, please cite the original:
 
