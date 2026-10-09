@@ -440,7 +440,7 @@ drawnow;
 
 %%***************************************
  button = findobj('Tag', 'SystemButton');
- thiseq.system = 'LTQ';  
+ thiseq.system = 'LTQ';  % Love wave, Transverse wave, Quasi-shear wave G.Ito fr Plesinger et al. 1986
  set(button, 'State','On')
  %button = findobj('Tag','LockButton');
  %set(button, 'State','On')

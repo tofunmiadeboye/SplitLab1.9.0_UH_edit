@@ -41,15 +41,15 @@ for n=1:length(filelist)
         case {'YYYY.MM.DD-hh.mm.ss.stn.sac.e', 'YYYY.JJJ.hh.mm.ss.stn.sac.e', '*.e; *.n; *.z', 'stn.YYMMDD.hhmmss.e', 'YYYY_MM_DD_hhmm_stnn.sac.e'}
             pos = length(fstr); %using last letter
 
-        case {'*BHE*; *BHN*; *BHZ*'}   %G.Ito
+        case {'*BHE*; *BHN*; *BHZ*'}   %Oluwatofunmi_2025
            three=[findstr(fstr,'BHE') findstr(fstr,'BHN') findstr(fstr,'BHZ')];
            pos=three+2;
 
-        case {'*HH1*; *HH2*; *HHZ*'}   %G.Ito
+        case {'*HH1*; *HH2*; *HHZ*'}   %Oluwatofunmi_2025
            three=[findstr(fstr,'HH1') findstr(fstr,'HH2') findstr(fstr,'HHZ')];
            pos=three+2;
 
-        case {'*LH1*; *LH2*; *LHZ*'}   %odeboye@2025
+        case {'*LH1*; *LH2*; *LHZ*'}   %Oluwatofunmi_2025
            three=[findstr(fstr,'LH1') findstr(fstr,'LH2') findstr(fstr,'LHZ')];
            pos=three+2;
     end
@@ -62,13 +62,13 @@ for n=1:length(filelist)
             i=1;
         case '2'  % modified JRS May 2016
             i=1;
-            %disp('WARNING:  2-component assumed as "East"')  %G.Ito
+            %disp('WARNING:  2-component assumed as "East"')  %Oluwatofunmi_2025
 
         case 'N'
             i=2;
         case '1'  % modified JRS May 2016
             i=2;
-            %disp('WARNING:  1-component assumed as "North"') %G.Ito
+            %disp('WARNING:  1-component assumed as "North"') Oluwatofunmi_2025
             
         case 'Z'
             i=3;
